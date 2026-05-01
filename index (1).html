@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ilham Khelifi — Cybersecurity & Full-Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">IK.</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-tag"><span class="dot"></span> Available for opportunities</div>
+      <h1>Ilham<br><span class="line2">Khelifi.</span></h1>
+      <p class="hero-bio">
+        Cyber Security &amp; Software Engineer based in Algiers, Algeria.
+        M1 student in Information Systems Security at USTHB — building solutions
+        that are both powerful and secure by design.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary"><i class="fa fa-code"></i> View Projects</a>
+        <a href="#contact" class="btn-outline"><i class="fa fa-envelope"></i> Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">2+</div>
+          <div class="stat-label">Years Freelancing</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">16.47</div>
+          <div class="stat-label">Bac Score · High Honors</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">About Me</div>
+    <h2>Who I Am</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm <strong>Ilham Khelifi</strong>, a first-year Master's student in
+          <strong>Information Systems Security (SSI)</strong> at USTHB, Algiers.
+        </p>
+        <p>
+          I'm passionate about <strong>cybersecurity</strong>, software development, and AI —
+          designing high-performance, <strong>secure full-stack web solutions</strong> that combine
+          elegant code with strong defensive practices.
+        </p>
+        <p>
+          Active member of <strong>Micro Club USTHB</strong> as developer, AI researcher, and
+          former communications manager. I organize and contribute to events around AI and innovation.
+        </p>
+        <p>
+          <strong>Freelance web developer</strong> since 2023, delivering end-to-end projects for
+          diverse clients using Laravel, Django, and modern JS.
+        </p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>🔒 Security &amp; Networks</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">RSA / AES / EL-GAMAL / SHAMIR</span>
+            <span class="skill-tag">Wireshark</span>
+            <span class="skill-tag">Nmap</span>
+            <span class="skill-tag">Kali Linux</span>
+            <span class="skill-tag">GNS3</span>
+            <span class="skill-tag">VMware</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>🌐 Web Development</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Laravel</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5 / CSS3</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">PyQt</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>💻 Languages &amp; Tools</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Git</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>🗄️ Databases</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">SQLite</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Work</div>
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">☁️</div>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>SecureCloud</h3>
+        <p>Cloud storage platform with end-to-end hybrid encryption. RSA-2048 for key exchange, AES-256 for data — full confidentiality for every user.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">React</span>
+          <span class="project-tag">Tailwind CSS</span>
+          <span class="project-tag">Flask</span>
+          <span class="project-tag">RSA-2048</span>
+          <span class="project-tag">AES-256</span>
+          <span class="project-tag">YARA</span>
+          <span class="project-tag">PostgreSQL</span>
+
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">👻</div>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Hidden Process — Academic Rootkit</h3>
+        <p>Research on stealth process techniques for defensive security: Linux syscall hooking and Windows registry/service manipulation to understand evasion and build better defenses.</p>
+        <div class="project-tags">
+          <span class="project-tag">C</span>
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Linux Kernel</span>
+          <span class="project-tag">Windows API</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">👥</div>
+          <div class="project-links">
+            <a href="https://github.com/Ilham-khelifi/Gestion_rh_app" target="_blank" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>HR Management App — PFE</h3>
+        <p>Comprehensive HR management system for tracking employees, leave, contracts, and administrative workflows with a full admin interface.</p>
+        <div class="project-tags">
+          <span class="project-tag">Django</span>
+          <span class="project-tag">Python</span>
+          <span class="project-tag">SQL</span>
+          <span class="project-tag">Full-Stack</span>
+        </div>
+      </div>
+
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">⚙️</div>
+          <div class="project-links">
+            <a href="https://github.com/Ilham-khelifi/Mini_Compilateur" target="_blank" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Mini Compiler</h3>
+        <p>Full compiler built from scratch — lexical analysis, syntax parsing, and intermediate code generation using formal language theory.</p>
+        <div class="project-tags">
+          <span class="project-tag">C</span>
+          <span class="project-tag">Algorithms</span>
+          <span class="project-tag">Language Theory</span>
+        </div>
+      </div>
+
+       <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🛡️</div>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Automated DevSecOps Watchtower & Supply-Chain Security Platform</h3>
+        <p>Developed a FastAPI platform for automated vulnerability scanning across CI/CD environments. The tool allows users to upload local projects or provide repository links for deep-dive analysis. It integrates the OSV API and OpenAI to detect compromised dependencies and generate AI-driven remediation reports. Featuring real-time monitoring via Watchdog and Cron, it ensures continuous security for Docker, Kubernetes, and GitHub Actions pipelines.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">FastAPI & Uvicorn</span>
+          <span class="project-tag">PostgreSQL & SQLAlchemy</span>
+          <span class="project-tag">Security Libraries</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <section id="cv">
+    <div class="section-label">Resume</div>
+    <h2>Curriculum Vitae</h2>
+    <div class="cv-grid">
+      <div>
+        <div class="cv-col">
+          <h3><i class="fa fa-briefcase"></i> Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h4>Web Developer — Micro Club USTHB</h4>
+              <div class="meta">Oct 2024 – Feb 2026</div>
+            </div>
+            <div class="timeline-item">
+              <h4>Community Manager — Micro Club USTHB</h4>
+              <div class="meta">Oct 2024 – Oct 2025</div>
+            </div>
+            <div class="timeline-item">
+              <h4>Freelance Web Developer</h4>
+              <div class="meta">July 2023 – Present · Algeria</div>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <div class="cv-col">
+          <h3><i class="fa fa-graduation-cap"></i> Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h4>Master — Information Systems Security</h4>
+              <div class="meta">USTHB · Oct 2025 – June 2027 (In progress)</div>
+              <p>
+                <strong>Specialization:</strong> Network & System Security, Applied Cryptography, and Application Hardening. <br>
+                <strong>Technical Skills:</strong> Penetration Testing, Intrusion Detection (IDS), Kubernetes Security, Vulnerability Assessment (OWASP), and Network Traffic Control.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h4>Bachelor's — Computer Systems &amp; Software Engineering</h4>
+              <div class="meta">USTHB · Sept 2022 – 2025</div>
+              <p>
+                <strong>Software & Systems:</strong> Full-cycle Software Engineering, Compiler Design, Networking and Computer Architecture.<br>
+                <strong>Data & Logic:</strong> Advanced Algorithms, Database Systems and Information Systems design.<br>
+                <strong>Hard Sciences:</strong> Advanced Mathematical Analysis, Algebra and Probability.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h4>High School Diploma (Baccalauréat) — Mathematics</h4>
+              <div class="meta">Tamaris · 2022</div>
+              <p>Graduated with High Honors (Mention Très Bien) — Grade: <strong>16.47/20</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="cv-col">
+          <h3><i class="fa fa-certificate"></i> Certifications</h3>
+          <div class="cert-item"><div class="cert-icon"><i class="fa fa-robot"></i></div><div class="cert-text">AI Tools Certificate<span>ALX · 2023</span></div></div>
+          <div class="cert-item"><div class="cert-icon"><i class="fa fa-graduation-cap"></i></div><div class="cert-text">Bachelor's in Software Engineering<span>USTHB · 2025</span></div></div>
+          <div class="cert-item"><div class="cert-icon"><i class="fa fa-shield-halved"></i></div><div class="cert-text">Master in Cybersecurity (in progress)<span>USTHB · 2025 – 2027</span></div></div>
+        </div>
+        <br/>
+        <div class="cv-col">
+          <h3><i class="fa fa-language"></i> Languages</h3>
+          <div class="lang-item"><span class="lang-name">Arabic</span><span class="lang-level">Native</span></div>
+          <div class="lang-item"><span class="lang-name">French</span><span class="lang-level">Fluent</span></div>
+          <div class="lang-item"><span class="lang-name">English</span><span class="lang-level">Fluent</span></div>
+        </div>
+        <div class="cv-download" style="margin-top:2rem;">
+          <!-- TODO: Remplace ce lien par ton Google Drive ou lien direct vers le PDF -->
+          <a href="cv.pdf" class="btn-primary" download>
+            <i class="fa fa-download"></i> Download Full CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">Contact</div>
+    <h2>Let's Connect</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Get in touch</h3>
+        <p>Whether you have a project, a collaboration idea, or just want to say hello — my inbox is always open.</p>
+        <div class="contact-links">
+          <a href="mailto:ilham1khelifi@gmail.com" class="contact-link-item">
+            <div class="ci"><i class="fa fa-envelope"></i></div>
+            ilham1khelifi@gmail.com
+          </a>
+          <a href="https://github.com/Ilham-khelifi" target="_blank" class="contact-link-item">
+            <div class="ci"><i class="fab fa-github"></i></div>
+            github.com/Ilham-khelifi
+          </a>
+          <a href="https://www.linkedin.com/in/ilhamkhelifi-8388b723b" target="_blank" class="contact-link-item">
+            <div class="ci"><i class="fab fa-linkedin"></i></div>
+            linkedin.com/in/ilhamkhelifi
+          </a>
+         
+          <a href="https://discord.gg/__ilham__" target="_blank" class="contact-link-item">
+            <div class="ci"><i class="fab fa-discord"></i></div>
+            Discord
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div class="form-title">Send a Message ✉️</div>
+        <div id="formContent">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" id="fname" placeholder="name..." />
+            </div>
+            <div class="form-group">
+              <label>Your Email</label>
+              <input type="email" id="femail" placeholder="name@example.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" id="fsubject" placeholder="Project collaboration" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea id="fmessage" placeholder="Tell me about your project or idea..."></textarea>
+          </div>
+          <button class="form-submit" id="sendBtn">
+            <i class="fa fa-paper-plane"></i> Send Message
+          </button>
+        </div>
+        <div class="form-success" id="formSuccess">
+          <i class="fa fa-circle-check"></i>
+          <div class="success-title">Message Sent!</div>
+          <p>Thanks for reaching out. I'll get back to you soon 🙌</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed &amp; Built by <span>Ilham Khelifi</span> · 2026 · All rights reserved.</p>
+  </footer>
+
+  <button id="scrollTop" aria-label="Scroll to top">
+    <i class="fa fa-chevron-up"></i>
+  </button>
+
+  <!-- EmailJS SDK — required for contact form -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
